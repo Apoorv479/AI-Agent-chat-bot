@@ -1,0 +1,160 @@
+{
+  "document_title": "Official Holiday List",
+  "document_version": "1.0",
+  "effective_year": 2025,
+  "approved_by": "HR Department",
+  "total_fixed_holidays": 14,
+  "total_optional_holidays": 5,
+  "fixed_holidays": [
+    {
+      "date": "Jan 01, 2025",
+      "day": "Wednesday",
+      "name": "New Year's Day",
+      "type": "Public Holiday",
+      "observed": "Company-wide",
+      "notes": "Office closed"
+    },
+    {
+      "date": "Jan 26, 2025",
+      "day": "Sunday",
+      "name": "Republic Day",
+      "type": "National",
+      "observed": "Company-wide",
+      "notes": "Will be observed on Monday if falls on weekend"
+    },
+    {
+      "date": "Mar 17, 2025",
+      "day": "Monday",
+      "name": "Holi",
+      "type": "Cultural",
+      "observed": "Company-wide",
+      "notes": "Festival of colors"
+    },
+    {
+      "date": "Apr 10, 2025",
+      "day": "Thursday",
+      "name": "Ram Navami",
+      "type": "Religious",
+      "observed": "Company-wide",
+      "notes": "Hindu festival"
+    },
+    {
+      "date": "Apr 14, 2025",
+      "day": "Monday",
+      "name": "Ambedkar Jayanti",
+      "type": "Observance",
+      "observed": "Company-wide",
+      "notes": "Birth anniversary of Dr. B.R. Ambedkar"
+    },
+    {
+      "date": "May 01, 2025",
+      "day": "Thursday",
+      "name": "Labour Day",
+      "type": "Public Holiday",
+      "observed": "Company-wide",
+      "notes": "International Workers' Day"
+    },
+    {
+      "date": "Jun 17, 2025",
+      "day": "Tuesday",
+      "name": "Bakrid / Eid al-Adha",
+      "type": "Religious",
+      "observed": "Company-wide",
+      "notes": "Islamic festival"
+    },
+    {
+      "date": "Aug 15, 2025",
+      "day": "Friday",
+      "name": "Independence Day",
+      "type": "National",
+      "observed": "Company-wide",
+      "notes": "Flag hoisting ceremony at 9 AM"
+    },
+    {
+      "date": "Sep 06, 2025",
+      "day": "Saturday",
+      "name": "Ganesh Chaturthi",
+      "type": "Cultural",
+      "observed": "Company-wide",
+      "notes": "Will be observed on Friday"
+    },
+    {
+      "date": "Oct 02, 2025",
+      "day": "Thursday",
+      "name": "Gandhi Jayanti",
+      "type": "National",
+      "observed": "Company-wide",
+      "notes": "Birth anniversary of Mahatma Gandhi"
+    },
+    {
+      "date": "Oct 21, 2025",
+      "day": "Tuesday",
+      "name": "Dussehra",
+      "type": "Cultural",
+      "observed": "Company-wide",
+      "notes": "Vijayadashami"
+    },
+    {
+      "date": "Oct 31, 2025",
+      "day": "Friday",
+      "name": "Diwali (Deepavali)",
+      "type": "Cultural",
+      "observed": "Company-wide",
+      "notes": "Festival of Lights"
+    },
+    {
+      "date": "Nov 14, 2025",
+      "day": "Friday",
+      "name": "Children's Day",
+      "type": "Observance",
+      "observed": "Company-wide",
+      "notes": "Birth anniversary of Jawaharlal Nehru"
+    },
+    {
+      "date": "Dec 25, 2025",
+      "day": "Thursday",
+      "name": "Christmas Day",
+      "type": "Public Holiday",
+      "observed": "Company-wide",
+      "notes": "Celebration at office at 4 PM"
+    }
+  ],
+  "optional_holidays": [
+    {
+      "date": "Mar 08, 2025",
+      "day": "Saturday",
+      "name": "Maha Shivratri",
+      "notes": "Requires manager approval"
+    },
+    {
+      "date": "Apr 08, 2025",
+      "day": "Tuesday",
+      "name": "Ugadi",
+      "notes": "Requires manager approval"
+    },
+    {
+      "date": "Jul 17, 2025",
+      "day": "Thursday",
+      "name": "Muharram",
+      "notes": "Requires manager approval"
+    },
+    {
+      "date": "Nov 01, 2025",
+      "day": "Saturday",
+      "name": "Kannada Rajyotsava",
+      "notes": "Requires manager approval"
+    },
+    {
+      "date": "Dec 24, 2025",
+      "day": "Wednesday",
+      "name": "Christmas Eve",
+      "notes": "Requires manager approval"
+    }
+  ],
+  "notes": [
+    "Total Paid Holidays: 14 Fixed + 2 Optional",
+    "Holidays are applicable pan-India unless otherwise notified",
+    "Optional holidays require manager approval at least 3 days in advance",
+    "For any clarifications, please contact: hr@novatech.in"
+  ]
+}

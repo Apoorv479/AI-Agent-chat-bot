@@ -1,0 +1,166 @@
+{
+  "document_title": "IT Policies and Guidelines",
+  "version": "1.2",
+  "effective_date": "July 21, 2025",
+  "purpose": "Ensure integrity, confidentiality, and availability of company data and infrastructure",
+  "acceptable_use": {
+    "devices": {
+      "description": "Company-owned devices are for business purposes only",
+      "rules": [
+        "No personal software installation without IT approval",
+        "Must use company-approved security software",
+        "Report lost/stolen devices immediately"
+      ]
+    },
+    "internet": {
+      "description": "Internet access is monitored",
+      "restrictions": [
+        "No access to illegal or inappropriate content",
+        "Bandwidth-heavy activities restricted during work hours",
+        "VPN required for external access"
+      ]
+    },
+    "email": {
+      "description": "Company email must not be used for personal matters",
+      "rules": [
+        "No mass forwarding of confidential information",
+        "Professional communication standards apply",
+        "No auto-forwarding to external accounts"
+      ]
+    },
+    "remote_work": {
+      "description": "Secure practices for remote access",
+      "requirements": [
+        "Company VPN must be used",
+        "Multi-factor authentication required",
+        "Secure home networks only"
+      ]
+    }
+  },
+  "security": {
+    "passwords": {
+      "requirements": [
+        "Minimum 12 characters",
+        "Must include uppercase, lowercase, number, and symbol",
+        "No reuse of last 5 passwords"
+      ],
+      "change_frequency": "Every 90 days",
+      "storage": "Password manager recommended"
+    },
+    "data_classification": {
+      "levels": [
+        {
+          "name": "Confidential",
+          "description": "Highly sensitive data (e.g., financial, personal)",
+          "handling": "Encryption required, limited access"
+        },
+        {
+          "name": "Internal Use Only",
+          "description": "Company proprietary information",
+          "handling": "Access limited to employees"
+        },
+        {
+          "name": "Public",
+          "description": "Approved for external sharing",
+          "handling": "Can be shared freely"
+        }
+      ]
+    },
+    "access_control": {
+      "principle": "Least privilege access",
+      "implementation": [
+        "Role-based access controls (RBAC)",
+        "Regular access reviews",
+        "Immediate revocation upon role change"
+      ]
+    },
+    "encryption": {
+      "requirements": [
+        "All laptops must use full-disk encryption",
+        "External drives must be encrypted",
+        "Sensitive emails must be encrypted"
+      ]
+    }
+  },
+  "software": {
+    "approved": {
+      "sources": [
+        "Company app store",
+        "Approved vendors list"
+      ],
+      "types": [
+        "Licensed commercial software",
+        "Approved open-source software"
+      ]
+    },
+    "prohibited": {
+      "categories": [
+        "Torrent clients",
+        "Unauthorized remote access tools",
+        "Cryptocurrency mining software",
+        "Unlicensed software"
+      ]
+    },
+    "updates": {
+      "policy": "Critical security updates must be installed within 48 hours",
+      "enforcement": "Automated patch management system"
+    }
+  },
+  "data_management": {
+    "backup": {
+      "frequency": [
+        "Daily for critical systems",
+        "Weekly for all user data"
+      ],
+      "retention": [
+        "30 days for incremental backups",
+        "1 year for monthly full backups"
+      ]
+    },
+    "storage": {
+      "approved_locations": [
+        "Company OneDrive",
+        "Department SharePoint",
+        "Approved cloud services"
+      ],
+      "prohibited": [
+        "Personal cloud storage",
+        "Unapproved external drives"
+      ]
+    },
+    "disposal": {
+      "methods": [
+        "Secure wiping for reuse",
+        "Physical destruction for disposal"
+      ],
+      "certification": "Must use certified e-waste handlers"
+    }
+  },
+  "incident_response": {
+    "reporting": {
+      "contacts": [
+        "IT Security Team: security@novatech.in",
+        "24/7 Hotline: +91-80-12345678"
+      ],
+      "timeline": "Within 1 hour of detection"
+    },
+    "process": [
+      "Initial triage and containment",
+      "Forensic investigation",
+      "Remediation",
+      "Post-mortem analysis"
+    ]
+  },
+  "consequences": {
+    "violations": [
+      "First offense: Warning and retraining",
+      "Second offense: Suspension of access",
+      "Severe violations: Termination and legal action"
+    ]
+  },
+  "contact": {
+    "helpdesk": "it-support@novatech.in",
+    "extension": "2025",
+    "emergency": "ext. 9999"
+  }
+}

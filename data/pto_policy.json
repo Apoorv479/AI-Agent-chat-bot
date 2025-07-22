@@ -1,0 +1,108 @@
+{
+  "document_title": "Paid Time Off (PTO) Policy",
+  "effective_date": "January 1, 2025",
+  "version": "3.0",
+  "eligibility": {
+    "full_time": "Eligible immediately upon hire",
+    "part_time": "Prorated based on hours worked",
+    "probation": "Accrues during probation but can't be used until completion"
+  },
+  "accrual_rates": [
+    {
+      "years_of_service": "0-1",
+      "days_per_month": 1.25,
+      "annual_total": 15,
+      "notes": "New employees"
+    },
+    {
+      "years_of_service": "1-3",
+      "days_per_month": 1.67,
+      "annual_total": 20,
+      "notes": "After first anniversary"
+    },
+    {
+      "years_of_service": "3+",
+      "days_per_month": 2.08,
+      "annual_total": 25,
+      "notes": "Senior employees"
+    }
+  ],
+  "usage": {
+    "types": [
+      {
+        "name": "Vacation",
+        "restrictions": "Minimum 1 day increments"
+      },
+      {
+        "name": "Sick Leave",
+        "restrictions": "Doctor's note required after 3 consecutive days"
+      },
+      {
+        "name": "Personal Days",
+        "restrictions": "Up to 5 days per year"
+      }
+    ],
+    "request_process": {
+      "planned": "7 days advance notice required",
+      "emergency": "Notify manager as soon as possible",
+      "approval": "Manager must respond within 48 hours"
+    },
+    "blackout_periods": [
+      "Year-end closing (Dec 15-31)",
+      "Quarterly financial reporting weeks"
+    ]
+  },
+  "carryover": {
+    "limit": 5,
+    "deadline": "Must be used by March 31 of following year",
+    "payout": "No cash payout for unused carryover"
+  },
+  "special_leave": {
+    "parental": {
+      "maternity": "26 weeks paid",
+      "paternity": "15 days paid",
+      "adoption": "12 weeks paid"
+    },
+    "bereavement": {
+      "immediate_family": "5 days",
+      "extended_family": "2 days"
+    },
+    "jury_duty": "Full pay for duration"
+  },
+  "documentation": {
+    "sick_leave": [
+      "Doctor's note for 3+ consecutive days",
+      "Hospitalization documentation"
+    ],
+    "other": [
+      "Travel tickets for vacation verification",
+      "Event invitations for personal days"
+    ]
+  },
+  "payout": {
+    "on_termination": {
+      "voluntary": "Prorated accrued PTO paid out",
+      "involuntary": "Full accrued PTO paid out"
+    },
+    "limits": [
+      "Maximum 30 days payout",
+      "No payout for carryover days"
+    ]
+  },
+  "abuse_prevention": {
+    "monitoring": [
+      "Patterns of frequent Monday/Friday absences",
+      "Unexplained extensions of weekends/holidays"
+    ],
+    "consequences": [
+      "Verbal warning",
+      "Written warning",
+      "PTO suspension",
+      "Disciplinary action"
+    ]
+  },
+  "contact": {
+    "hr_representative": "pto@novatech.in",
+    "portal": "https://hrportal.novatech.in/pto"
+  }
+}

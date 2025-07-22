@@ -1,0 +1,111 @@
+{
+  "document_title": "Employee Terms and Conditions",
+  "effective_date": "January 1, 2025",
+  "version": "1.3",
+  "employment_relationship": {
+    "description": "Employment with NovaTech is at-will unless otherwise specified in a written agreement",
+    "details": [
+      "Either party may terminate the employment at any time",
+      "Notice period of 30 days recommended but not mandatory"
+    ]
+  },
+  "work_hours": {
+    "standard": "9:00 AM to 6:00 PM, Monday through Friday",
+    "flexibility": [
+      "Core hours from 10:00 AM to 4:00 PM",
+      "Flexible start/end times with manager approval"
+    ],
+    "overtime": {
+      "policy": "Approval required for overtime",
+      "compensation": "As per local labor laws"
+    }
+  },
+  "compensation": {
+    "payment_schedule": "Bi-weekly through direct deposit",
+    "components": [
+      "Base salary",
+      "Performance bonuses",
+      "Allowances (if applicable)"
+    ],
+    "reviews": {
+      "frequency": "Annual performance reviews",
+      "adjustments": "Based on performance and market conditions"
+    }
+  },
+  "probation_period": {
+    "duration": "3 months for new employees",
+    "evaluation": "Performance and cultural fit assessment",
+    "extension": {
+      "possible": "Up to 3 additional months if needed",
+      "conditions": "Must be communicated in writing"
+    }
+  },
+  "confidentiality": {
+    "scope": [
+      "Company trade secrets",
+      "Client information",
+      "Proprietary processes",
+      "Unreleased product details"
+    ],
+    "duration": "Continues indefinitely after employment ends"
+  },
+  "intellectual_property": {
+    "ownership": "NovaTech retains rights to all work created during employment",
+    "inventions": "Must be disclosed to the company",
+    "exceptions": "Must be pre-approved in writing"
+  },
+  "non_compete": {
+    "duration": "1 year post-employment",
+    "scope": "Cannot work for direct competitors",
+    "geographic_limit": "Within 100 km of NovaTech offices"
+  },
+  "leave_policies": {
+    "types": [
+      "Paid Time Off (PTO)",
+      "Sick Leave",
+      "Bereavement Leave",
+      "Parental Leave"
+    ],
+    "request_process": "Minimum 7 days notice for planned leave",
+    "emergency_leave": "Notify manager as soon as possible"
+  },
+  "equipment": {
+    "issuance": [
+      "Laptop",
+      "Access card",
+      "Other role-specific equipment"
+    ],
+    "usage": "Primarily for business purposes",
+    "return": "Required upon termination of employment"
+  },
+  "termination": {
+    "voluntary": {
+      "notice_period": "30 days recommended",
+      "exit_process": [
+        "Knowledge transfer",
+        "Equipment return",
+        "Exit interview"
+      ]
+    },
+    "involuntary": {
+      "grounds": [
+        "Performance issues",
+        "Policy violations",
+        "Business restructuring"
+      ],
+      "severance": "Based on tenure and circumstances"
+    }
+  },
+  "dispute_resolution": {
+    "process": [
+      "Informal discussion with manager",
+      "HR mediation",
+      "Formal grievance procedure"
+    ],
+    "arbitration": "Final step for unresolved disputes"
+  },
+  "policy_changes": {
+    "notification": "30 days notice for significant changes",
+    "acceptance": "Continued employment constitutes acceptance"
+  }
+}

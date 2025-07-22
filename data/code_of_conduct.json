@@ -1,0 +1,101 @@
+{
+  "document_title": "Code of Conduct",
+  "effective_date": "January 1, 2025",
+  "version": "2.1",
+  "purpose": "This Code of Conduct outlines the expectations for professional behavior at NovaTech. All employees, contractors, and partners are expected to uphold these standards to promote a safe, respectful, and ethical work environment.",
+  "scope": "This policy applies to all NovaTech employees, regardless of position or location.",
+  "policies": {
+    "respect_integrity": {
+      "description": "Treat all individuals with dignity, respect, and fairness",
+      "specifics": [
+        "Foster a workplace free from discrimination, harassment, and retaliation",
+        "Encourage open and honest communication",
+        "Value diversity and inclusion"
+      ]
+    },
+    "professional_behavior": {
+      "description": "Maintain professionalism in all communications and interactions",
+      "specifics": [
+        "Dress appropriately for the workplace or client meetings",
+        "Avoid gossip, slander, or disrespectful behavior",
+        "Be punctual for meetings and commitments"
+      ]
+    },
+    "compliance": {
+      "description": "Abide by all applicable laws and company policies",
+      "specifics": [
+        "Follow all internal policies and procedures",
+        "Report any known or suspected violations",
+        "Complete all mandatory trainings"
+      ]
+    },
+    "confidentiality": {
+      "description": "Protect sensitive company and client information",
+      "specifics": [
+        "Do not disclose confidential data without authorization",
+        "Use secure methods for sharing sensitive information",
+        "Protect intellectual property and trade secrets"
+      ]
+    },
+    "conflict_of_interest": {
+      "description": "Avoid situations that could compromise impartiality",
+      "specifics": [
+        "Disclose any potential conflicts immediately",
+        "Do not engage in competing business activities",
+        "Do not accept gifts over ₹2,000 from vendors"
+      ]
+    },
+    "company_resources": {
+      "description": "Use NovaTech resources responsibly",
+      "specifics": [
+        "Use assets primarily for work-related purposes",
+        "Do not use resources for illegal activities",
+        "Be mindful of excessive personal use"
+      ]
+    },
+    "health_safety": {
+      "description": "Maintain a safe work environment",
+      "specifics": [
+        "Follow all safety protocols",
+        "Report unsafe conditions immediately",
+        "Support a drug-free workplace"
+      ]
+    },
+    "social_media": {
+      "description": "Be responsible when representing the company online",
+      "specifics": [
+        "Do not share confidential information",
+        "Make clear when expressing personal opinions",
+        "Be respectful in all online interactions"
+      ]
+    }
+  },
+  "reporting": {
+    "channels": [
+      "Immediate supervisor",
+      "HR department",
+      "Ethics hotline: ethics@novatech.in",
+      "Anonymous reporting portal"
+    ],
+    "non_retaliation": "NovaTech prohibits retaliation against anyone who reports concerns in good faith"
+  },
+  "consequences": {
+    "violation_process": [
+      "Initial investigation",
+      "Review by ethics committee",
+      "Corrective action plan",
+      "Possible disciplinary action"
+    ],
+    "potential_actions": [
+      "Verbal warning",
+      "Written warning",
+      "Suspension",
+      "Termination",
+      "Legal action for severe violations"
+    ]
+  },
+  "acknowledgment": {
+    "process": "All employees must sign an acknowledgment during onboarding",
+    "frequency": "Annual re-acknowledgment required"
+  }
+}
