@@ -1,0 +1,22 @@
+{
+  "ascendant": "The zodiac sign rising on the eastern horizon at the time of birth. Also called the rising sign, it represents self-image and outward personality.",
+  "retrograde": "When a planet appears to move backward in its orbit from Earth's perspective. Often associated with delays and reevaluation.",
+  "conjunction": "When two or more planets appear very close to each other in the same zodiac sign, blending their energies.",
+  "opposition": "When two planets are 180 degrees apart in the zodiac, creating tension that seeks balance.",
+  "trine": "A favorable aspect formed when planets are 120 degrees apart, indicating harmony and ease.",
+  "square": "A challenging aspect formed when planets are 90 degrees apart, creating friction and growth opportunities.",
+  "sextile": "A positive aspect formed when planets are 60 degrees apart, supporting cooperation and opportunity.",
+  "transit": "The ongoing movement of planets through the zodiac and their effect on an individual's natal chart.",
+  "natal_chart": "A map of the positions of the planets at the exact time and place of a person's birth. Used for astrological interpretation.",
+  "houses": "The 12 divisions of the sky in an astrology chart, each representing different areas of life such as career, family, and relationships.",
+  "zodiac": "The 12 signs of the astrological wheel, each with unique qualities, ruling planets, and time periods.",
+  "elements": "The four natural forces (Fire, Earth, Air, Water) that group zodiac signs and describe their basic traits.",
+  "modalities": "The three qualities (Cardinal, Fixed, Mutable) that describe how zodiac signs express their energy.",
+  "lunar_nodes": "The North Node and South Node points in the chart, representing karmic lessons and spiritual growth.",
+  "mercury_retrograde": "A period when Mercury appears to move backward, often linked with communication breakdowns and travel delays.",
+  "saturn_return": "The time (around ages 28–30, 58–60) when Saturn returns to its natal position, symbolizing maturity and life challenges.",
+  "solar_return": "The astrological chart created at the exact moment the Sun returns to its natal position, marking a person’s new year of life.",
+  "lunar_phase": "The current stage of the Moon (New, Full, Waxing, Waning), each with specific influences on emotions and activities.",
+  "ruling_planet": "The planet that governs a zodiac sign and influences its qualities.",
+  "aspect": "The angle formed between two or more planets in the chart, affecting how their energies interact."
+}
