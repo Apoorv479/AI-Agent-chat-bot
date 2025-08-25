@@ -1,6 +1,6 @@
-class AstroBot {
+class AstroDragon {
     constructor() {
-        this.apiKey = "xxxxxxxxxxxxxxxx"; // Replace with your actual API key
+        this.apiKey = "xxxxxxxxxxxxxxxx"; // Replace with your Gemini API key
         this.apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
 
         // DOM elements
@@ -45,10 +45,10 @@ class AstroBot {
             ]);
 
             this.astroData = { zodiacSigns, dailyHoroscope, festivals, remedies, astroTerms };
-            console.log('Astrology data loaded successfully');
+            console.log("Astrology data loaded successfully");
         } catch (error) {
-            console.error('Error loading astrology data:', error);
-            this.addMessage("⚠️ Some astrology data failed to load. Predictions may be limited.", 'bot');
+            console.error("Error loading astrology data:", error);
+            this.addMessage("⚠️ Some astrology data failed to load. Limited responses may be available.", 'bot');
         }
     }
 
@@ -73,8 +73,8 @@ class AstroBot {
 
         try {
             let response;
-            if (this.isAstroQuery(message)) {
-                response = this.handleAstroQuery(message);
+            if (this.isAstrologyQuery(message)) {
+                response = this.handleAstrologyQuery(message);
             } else {
                 response = await this.callGeminiAPI(message);
             }
@@ -84,10 +84,10 @@ class AstroBot {
             this.hideTypingIndicator();
             this.addMessage(response, 'bot');
         } catch (error) {
-            console.error('Error:', error);
+            console.error("Error:", error);
             this.hideTypingIndicator();
-            this.addMessage('⚠️ Sorry, I encountered an error. Please try again.', 'bot');
-            this.showError('Failed to process your request. Please check your connection and try again.');
+            this.addMessage("Sorry, something went wrong. Please try again.", 'bot');
+            this.showError("Error processing your request.");
         } finally {
             this.sendButton.disabled = false;
             this.chatInput.disabled = false;
@@ -95,105 +95,84 @@ class AstroBot {
         }
     }
 
-    isAstroQuery(message) {
+    isAstrologyQuery(message) {
         const astroKeywords = [
-            'zodiac', 'horoscope', 'festival', 'remedy', 'mantra',
-            'astrology', 'astro', 'planet', 'prediction', 'sign',
-            'aries', 'taurus', 'gemini', 'cancer', 'leo', 'virgo',
-            'libra', 'scorpio', 'sagittarius', 'capricorn', 'aquarius', 'pisces'
+            "zodiac", "aries", "taurus", "gemini", "cancer", "leo", "virgo",
+            "libra", "scorpio", "sagittarius", "capricorn", "aquarius", "pisces",
+            "horoscope", "festival", "remedy", "puja", "astrology", "term"
         ];
         return astroKeywords.some(keyword =>
             message.toLowerCase().includes(keyword.toLowerCase())
         );
     }
 
-    handleAstroQuery(message) {
+    handleAstrologyQuery(message) {
         const lowerMsg = message.toLowerCase();
 
-        if (lowerMsg.includes('zodiac') || lowerMsg.includes('sign')) {
+        if (this.containsAny(lowerMsg, ["zodiac", "sign", "aries", "taurus", "gemini", "leo", "virgo", "libra", "scorpio", "sagittarius", "capricorn", "aquarius", "pisces"])) {
             return this.getZodiacInfo(message);
-        } else if (lowerMsg.includes('horoscope') || lowerMsg.includes('today')) {
-            return this.getHoroscopeInfo(message);
-        } else if (lowerMsg.includes('festival')) {
+        } else if (this.containsAny(lowerMsg, ["horoscope", "today", "tomorrow", "daily"])) {
+            return this.getDailyHoroscope(message);
+        } else if (this.containsAny(lowerMsg, ["festival", "celebration", "puja"])) {
             return this.getFestivalInfo(message);
-        } else if (lowerMsg.includes('remedy') || lowerMsg.includes('dosha')) {
+        } else if (this.containsAny(lowerMsg, ["remedy", "dosha", "solution", "upay"])) {
             return this.getRemedyInfo(message);
-        } else if (lowerMsg.includes('term') || lowerMsg.includes('meaning')) {
+        } else if (this.containsAny(lowerMsg, ["meaning", "term", "astrology word"])) {
             return this.getAstroTermInfo(message);
-        } else {
-            return this.searchAllAstroData(message);
         }
+
+        return "🔮 Please ask about zodiac signs, daily horoscopes, remedies, festivals, or astrology terms!";
     }
 
     getZodiacInfo(query) {
-        const data = this.astroData.zodiacSigns;
-        if (!data) return "♈ Zodiac data not available.";
-
-        for (const sign of data.signs) {
+        const signs = this.astroData.zodiacSigns?.signs || [];
+        for (const sign of signs) {
             if (query.toLowerCase().includes(sign.name.toLowerCase())) {
-                return `♑ ${sign.name} (${sign.period})\n` +
-                       `Traits: ${sign.traits.join(', ')}\n` +
-                       `Element: ${sign.element}, Ruling Planet: ${sign.planet}`;
+                return `♈ ${sign.name} (${sign.period})\n\nCharacteristics:\n${sign.characteristics.join(", ")}`;
             }
         }
-
-        return "Please specify a zodiac sign (e.g., Aries, Leo, Pisces).";
+        return "I couldn’t find that zodiac sign. Try asking about Aries, Taurus, Gemini, etc.";
     }
 
-    getHoroscopeInfo(query) {
-        const data = this.astroData.dailyHoroscope;
-        if (!data) return "🔮 Horoscope data not available.";
-
-        for (const sign in data) {
+    getDailyHoroscope(query) {
+        const horoscopes = this.astroData.dailyHoroscope?.horoscopes || {};
+        for (const sign in horoscopes) {
             if (query.toLowerCase().includes(sign.toLowerCase())) {
-                return `🔮 ${sign} Horoscope for Today:\n` + data[sign].prediction;
+                const today = horoscopes[sign].today;
+                return `📝 Daily Horoscope for ${sign}:\n\nLove: ${today.love}\nCareer: ${today.career}\nHealth: ${today.health}`;
             }
         }
-
-        return "Please specify your zodiac sign for today's horoscope.";
+        return "Please mention a zodiac sign for the daily horoscope.";
     }
 
     getFestivalInfo(query) {
-        const data = this.astroData.festivals;
-        if (!data) return "🎉 Festival data not available.";
-
-        let response = "🌙 Upcoming Festivals:\n";
-        data.festivals.slice(0, 5).forEach(f => {
-            response += `- ${f.name} on ${f.date} (${f.significance})\n`;
-        });
-        return response;
+        const festivals = this.astroData.festivals?.festivals || [];
+        for (const fest of festivals) {
+            if (query.toLowerCase().includes(fest.name.toLowerCase())) {
+                return `🎉 ${fest.name} (${fest.date})\nSignificance: ${fest.significance}\nTraditions: ${fest.traditions.join(", ")}`;
+            }
+        }
+        return "I couldn’t find that festival. Try asking about Diwali, Holi, or Navratri.";
     }
 
     getRemedyInfo(query) {
-        const data = this.astroData.remedies;
-        if (!data) return "🕉 Remedies data not available.";
-
-        let response = "🕉 Suggested Remedies:\n";
-        for (const [dosha, remedyList] of Object.entries(data)) {
-            if (query.toLowerCase().includes(dosha.toLowerCase())) {
-                remedyList.forEach(r => response += `- ${r}\n`);
-                return response;
+        const remedies = this.astroData.remedies?.remedies || {};
+        for (const sign in remedies) {
+            if (query.toLowerCase().includes(sign.toLowerCase())) {
+                return `🪔 Remedies for ${sign}:\n${remedies[sign].join("\n- ")}`;
             }
         }
-
-        return "Please mention the dosha or issue (e.g., Shani dosha, career remedy).";
+        return "Please mention a zodiac sign to get specific remedies.";
     }
 
     getAstroTermInfo(query) {
-        const data = this.astroData.astroTerms;
-        if (!data) return "📖 Astrology terms not available.";
-
-        for (const term of data.terms) {
+        const terms = this.astroData.astroTerms?.terms || [];
+        for (const term of terms) {
             if (query.toLowerCase().includes(term.term.toLowerCase())) {
-                return `📖 ${term.term}: ${term.definition}`;
+                return `📘 ${term.term}: ${term.definition}`;
             }
         }
-
-        return "Please specify an astrology term you want explained.";
-    }
-
-    searchAllAstroData(query) {
-        return "I couldn't find exact info on that. Try asking about zodiac signs, horoscopes, remedies, or festivals.";
+        return "I couldn’t find that astrology term. Try asking about Ascendant, Retrograde, or Nakshatra.";
     }
 
     async callGeminiAPI(message) {
@@ -201,11 +180,12 @@ class AstroBot {
             {
                 role: "user",
                 parts: [{
-                    text: "You are AstroBot, a helpful astrology assistant. " +
-                          "Provide zodiac insights, horoscope predictions, remedies, and festival information. " +
-                          "Current conversation context:\n" +
-                          this.context.map(c => `${c.role}: ${c.content}`).join('\n') +
-                          "\n\nNow respond to this:\n" + message
+                    text: "You are AstroDragon, a helpful astrology assistant. " +
+                        "Answer in a mystical yet clear tone. " +
+                        "Use zodiac, horoscope, remedies, festivals, or astrology terms if relevant. " +
+                        "Conversation so far:\n" +
+                        this.context.map(c => `${c.role}: ${c.content}`).join("\n") +
+                        "\n\nNow respond to this:\n" + message
                 }]
             }
         ];
@@ -217,17 +197,24 @@ class AstroBot {
         });
 
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-
         const data = await response.json();
 
         if (data.candidates?.[0]?.content?.parts?.[0]?.text) {
             return data.candidates[0].content.parts[0].text;
         } else {
-            throw new Error('No response from API');
+            throw new Error("No response from Gemini API");
         }
     }
 
-    // Helpers
+    // Helper utilities
+    containsAny(text, keywords) {
+        return keywords.some(kw => text.includes(kw.toLowerCase()));
+    }
+
+    capitalize(str) {
+        return str.replace(/\b\w/g, char => char.toUpperCase());
+    }
+
     addMessage(text, sender) {
         const messageDiv = document.createElement('div');
         messageDiv.className = `message ${sender}`;
@@ -268,5 +255,5 @@ class AstroBot {
 
 // Initialize chatbot
 document.addEventListener('DOMContentLoaded', () => {
-    new AstroBot();
+    new AstroDragon();
 });
