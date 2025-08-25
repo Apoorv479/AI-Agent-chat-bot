@@ -1,159 +1,134 @@
 {
-  "document_title": "Employee Benefits and Perks",
-  "effective_date": "January 1, 2025",
-  "last_updated": "July 21, 2025",
-  "health_wellness": {
-    "health_insurance": {
-      "description": "Comprehensive coverage including medical, dental, and vision",
-      "coverage_amount": "₹5,00,000 per year",
-      "dependents": "Spouse and 2 children covered",
-      "network_hospitals": "5000+ across India"
-    },
-    "mental_health_support": {
-      "description": "Access to free counseling and mental wellness programs",
-      "sessions": "6 free counseling sessions per year",
-      "provider": "MindCare Wellness Solutions"
-    },
-    "fitness_reimbursement": {
-      "description": "Up to ₹2,000/month for gym memberships or fitness apps",
-      "eligible_expenses": [
-        "Gym memberships",
-        "Yoga classes",
-        "Fitness apps subscription",
-        "Marathon registration fees"
-      ],
-      "claim_process": "Submit receipts through HR portal"
-    },
-    "health_checkups": {
-      "description": "Annual preventive health checkup",
-      "coverage": "Full coverage for basic package",
-      "providers": [
-        "Apollo Hospitals",
-        "Fortis Healthcare",
-        "Local empaneled clinics"
-      ]
-    }
+  "aries": {
+    "date_range": "March 21 - April 19",
+    "element": "Fire",
+    "planet": "Mars",
+    "general_characteristics": [
+      "Energetic and adventurous",
+      "Natural leader, courageous",
+      "Impulsive and sometimes impatient",
+      "Passionate and competitive"
+    ]
   },
-  "career_development": {
-    "training_programs": {
-      "description": "Regular skill-building sessions, workshops, and webinars",
-      "frequency": "Bi-weekly technical sessions, Monthly soft skills workshops",
-      "providers": [
-        "LinkedIn Learning",
-        "Coursera",
-        "Internal subject matter experts"
-      ]
-    },
-    "certification_sponsorship": {
-      "description": "Full or partial reimbursement for approved certifications",
-      "coverage": [
-        "100% for job-critical certifications",
-        "50% for career-development certifications"
-      ],
-      "annual_limit": "₹25,000 per employee"
-    },
-    "mentorship_program": {
-      "description": "Internal mentorship programs to guide career growth",
-      "duration": "6-month cycles",
-      "participation": "Voluntary for both mentors and mentees"
-    },
-    "conference_attendance": {
-      "description": "Sponsored attendance at relevant industry conferences",
-      "approval_process": "Manager and HR approval required",
-      "annual_limit": "1 domestic or 1 international conference per year"
-    }
+  "taurus": {
+    "date_range": "April 20 - May 20",
+    "element": "Earth",
+    "planet": "Venus",
+    "general_characteristics": [
+      "Practical and reliable",
+      "Patient but stubborn",
+      "Loves comfort and luxury",
+      "Persistent and hardworking"
+    ]
   },
-  "work_life_balance": {
-    "flexible_hours": {
-      "description": "Core hours (10 AM - 3 PM) with flexible scheduling options",
-      "policies": [
-        "Can shift start time between 8 AM - 10 AM",
-        "Can shift end time between 5 PM - 7 PM"
-      ]
-    },
-    "remote_work": {
-      "description": "Hybrid and fully remote options based on role and department",
-      "policy": [
-        "2 days mandatory office presence for hybrid roles",
-        "Fully remote for designated positions"
-      ]
-    },
-    "paid_time_off": {
-      "description": "Competitive PTO plans for personal and family needs",
-      "types": [
-        "Vacation leave",
-        "Sick leave",
-        "Bereavement leave",
-        "Parental leave"
-      ]
-    },
-    "sabbatical": {
-      "description": "Unpaid sabbatical leave after 5 years of service",
-      "duration": "3-6 months",
-      "approval": "HR and senior management approval required"
-    }
+  "gemini": {
+    "date_range": "May 21 - June 20",
+    "element": "Air",
+    "planet": "Mercury",
+    "general_characteristics": [
+      "Curious and adaptable",
+      "Excellent communicator",
+      "Witty and intellectual",
+      "Can be inconsistent or restless"
+    ]
   },
-  "financial_benefits": {
-    "performance_bonuses": {
-      "description": "Quarterly or annual bonuses based on individual and company performance",
-      "structure": [
-        "Up to 20% of annual salary for exceptional performance",
-        "5-10% for standard performance"
-      ]
-    },
-    "referral_bonus": {
-      "description": "₹5,000–₹10,000 for successful candidate referrals",
-      "payment_terms": [
-        "50% after candidate joins",
-        "50% after completion of 3 months"
-      ]
-    },
-    "esop": {
-      "description": "Eligible employees may receive company stock options",
-      "eligibility": "After 1 year of service",
-      "vesting_period": "4 years with 1 year cliff"
-    },
-    "retirement_benefits": {
-      "description": "Provident Fund contributions matching employee contributions",
-      "employer_contribution": "12% of basic salary"
-    }
+  "cancer": {
+    "date_range": "June 21 - July 22",
+    "element": "Water",
+    "planet": "Moon",
+    "general_characteristics": [
+      "Emotional and nurturing",
+      "Highly intuitive",
+      "Protective and loyal",
+      "Can be moody or sensitive"
+    ]
   },
-  "lifestyle_perks": {
-    "office_amenities": {
-      "description": "Free snacks & beverages available in all NovaTech offices",
-      "includes": [
-        "Coffee/tea bar",
-        "Healthy snacks",
-        "Fruit baskets",
-        "Friday special meals"
-      ]
-    },
-    "team_activities": {
-      "description": "Sponsored getaways and offsite events",
-      "frequency": [
-        "Quarterly team outings",
-        "Annual company retreat"
-      ]
-    },
-    "anniversary_rewards": {
-      "description": "Special rewards on completion of service milestones",
-      "milestones": [
-        "1 year: ₹5,000 voucher",
-        "3 years: ₹15,000 + extra PTO day",
-        "5 years: ₹30,000 + international trip"
-      ]
-    },
-    "transportation": {
-      "description": "Shuttle service from major transit points",
-      "routes": [
-        "Metro station pickup",
-        "Central bus stand pickup"
-      ]
-    }
+  "leo": {
+    "date_range": "July 23 - August 22",
+    "element": "Fire",
+    "planet": "Sun",
+    "general_characteristics": [
+      "Confident and charismatic",
+      "Generous and warm-hearted",
+      "Natural leader with ambition",
+      "Can be dramatic or proud"
+    ]
   },
-  "contact": {
-    "hr_email": "hr@novatech.in",
-    "benefits_helpdesk": "ext. 2025",
-    "portal": "https://hrportal.novatech.in/benefits"
+  "virgo": {
+    "date_range": "August 23 - September 22",
+    "element": "Earth",
+    "planet": "Mercury",
+    "general_characteristics": [
+      "Detail-oriented and practical",
+      "Analytical and intelligent",
+      "Helpful and reliable",
+      "Can be critical or overthinking"
+    ]
+  },
+  "libra": {
+    "date_range": "September 23 - October 22",
+    "element": "Air",
+    "planet": "Venus",
+    "general_characteristics": [
+      "Diplomatic and fair-minded",
+      "Charming and sociable",
+      "Appreciates beauty and harmony",
+      "Can be indecisive or avoid conflict"
+    ]
+  },
+  "scorpio": {
+    "date_range": "October 23 - November 21",
+    "element": "Water",
+    "planet": "Pluto/Mars",
+    "general_characteristics": [
+      "Intense and passionate",
+      "Mysterious and determined",
+      "Resourceful and loyal",
+      "Can be secretive or jealous"
+    ]
+  },
+  "sagittarius": {
+    "date_range": "November 22 - December 21",
+    "element": "Fire",
+    "planet": "Jupiter",
+    "general_characteristics": [
+      "Adventurous and optimistic",
+      "Freedom-loving and honest",
+      "Philosophical and curious",
+      "Can be blunt or reckless"
+    ]
+  },
+  "capricorn": {
+    "date_range": "December 22 - January 19",
+    "element": "Earth",
+    "planet": "Saturn",
+    "general_characteristics": [
+      "Disciplined and ambitious",
+      "Practical and responsible",
+      "Patient and hardworking",
+      "Can be reserved or rigid"
+    ]
+  },
+  "aquarius": {
+    "date_range": "January 20 - February 18",
+    "element": "Air",
+    "planet": "Uranus/Saturn",
+    "general_characteristics": [
+      "Independent and innovative",
+      "Humanitarian and open-minded",
+      "Visionary thinker",
+      "Can be detached or unpredictable"
+    ]
+  },
+  "pisces": {
+    "date_range": "February 19 - March 20",
+    "element": "Water",
+    "planet": "Neptune/Jupiter",
+    "general_characteristics": [
+      "Compassionate and empathetic",
+      "Highly intuitive and artistic",
+      "Selfless and imaginative",
+      "Can be overly idealistic or escapist"
+    ]
   }
 }
