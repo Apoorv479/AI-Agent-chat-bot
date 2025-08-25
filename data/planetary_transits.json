@@ -1,0 +1,111 @@
+{
+  "mercury_retrograde": {
+    "name": "Mercury Retrograde",
+    "description": "Mercury retrograde is known for communication breakdowns, travel delays, and misunderstandings.",
+    "upcoming_periods": [
+      {
+        "start_date": "April 1, 2025",
+        "end_date": "April 25, 2025"
+      },
+      {
+        "start_date": "August 4, 2025",
+        "end_date": "August 28, 2025"
+      },
+      {
+        "start_date": "November 9, 2025",
+        "end_date": "November 29, 2025"
+      }
+    ],
+    "effects": [
+      "Miscommunication and confusion",
+      "Delays in travel and projects",
+      "Revisiting past issues"
+    ],
+    "advice": [
+      "Double-check messages and emails",
+      "Avoid signing new contracts if possible",
+      "Backup important files and data"
+    ]
+  },
+  "venus_retrograde": {
+    "name": "Venus Retrograde",
+    "description": "Venus retrograde influences relationships, love, beauty, and finances.",
+    "next_period": {
+      "start_date": "March 2, 2025",
+      "end_date": "April 12, 2025"
+    },
+    "effects": [
+      "Re-evaluating relationships",
+      "Financial instability",
+      "Issues with self-worth"
+    ],
+    "advice": [
+      "Avoid major cosmetic changes",
+      "Revisit old connections wisely",
+      "Be cautious with big purchases"
+    ]
+  },
+  "mars_retrograde": {
+    "name": "Mars Retrograde",
+    "description": "Mars retrograde slows down energy, motivation, and may cause frustration.",
+    "next_period": {
+      "start_date": "December 6, 2025",
+      "end_date": "February 23, 2026"
+    },
+    "effects": [
+      "Delays in personal goals",
+      "Lower energy levels",
+      "Increased irritability"
+    ],
+    "advice": [
+      "Practice patience and avoid conflicts",
+      "Focus on self-care and rest",
+      "Re-plan long-term goals"
+    ]
+  },
+  "jupiter_transits": {
+    "name": "Jupiter Transit",
+    "description": "Jupiter represents growth, wisdom, and expansion. Its transits bring opportunities for learning and abundance.",
+    "current_position": "Jupiter in Gemini (until June 2025)",
+    "effects": [
+      "Expansion in communication and networking",
+      "Opportunities in education",
+      "Focus on adaptability and curiosity"
+    ],
+    "advice": [
+      "Pursue learning opportunities",
+      "Expand your social connections",
+      "Be flexible with new ideas"
+    ]
+  },
+  "saturn_transits": {
+    "name": "Saturn Transit",
+    "description": "Saturn symbolizes discipline, structure, and responsibility. Its transits bring challenges but also maturity.",
+    "current_position": "Saturn in Pisces (March 2023 - February 2026)",
+    "effects": [
+      "Learning discipline in emotional areas",
+      "Facing responsibilities related to empathy and spirituality",
+      "Releasing old emotional baggage"
+    ],
+    "advice": [
+      "Stay disciplined and patient",
+      "Work on emotional healing",
+      "Take responsibility for commitments"
+    ]
+  },
+  "rahu_ketu_transits": {
+    "name": "Rahu & Ketu Transit",
+    "description": "Rahu (North Node) and Ketu (South Node) signify karmic lessons, illusions, and spiritual growth.",
+    "current_position": "Rahu in Pisces, Ketu in Virgo (until October 2025)",
+    "effects": [
+      "Confusion in spirituality and direction",
+      "Lessons in balancing logic and intuition",
+      "Unexpected events that feel fated"
+    ],
+    "advice": [
+      "Embrace spiritual practices",
+      "Avoid overindulgence in fantasies",
+      "Balance practicality with dreams"
+    ]
+  }
+}
