@@ -1,0 +1,134 @@
+{
+  "aries": {
+    "date_range": "March 21 - April 19",
+    "element": "Fire",
+    "planet": "Mars",
+    "general_characteristics": [
+      "Energetic and adventurous",
+      "Natural leader, courageous",
+      "Impulsive and sometimes impatient",
+      "Passionate and competitive"
+    ]
+  },
+  "taurus": {
+    "date_range": "April 20 - May 20",
+    "element": "Earth",
+    "planet": "Venus",
+    "general_characteristics": [
+      "Practical and reliable",
+      "Patient but stubborn",
+      "Loves comfort and luxury",
+      "Persistent and hardworking"
+    ]
+  },
+  "gemini": {
+    "date_range": "May 21 - June 20",
+    "element": "Air",
+    "planet": "Mercury",
+    "general_characteristics": [
+      "Curious and adaptable",
+      "Excellent communicator",
+      "Witty and intellectual",
+      "Can be inconsistent or restless"
+    ]
+  },
+  "cancer": {
+    "date_range": "June 21 - July 22",
+    "element": "Water",
+    "planet": "Moon",
+    "general_characteristics": [
+      "Emotional and nurturing",
+      "Highly intuitive",
+      "Protective and loyal",
+      "Can be moody or sensitive"
+    ]
+  },
+  "leo": {
+    "date_range": "July 23 - August 22",
+    "element": "Fire",
+    "planet": "Sun",
+    "general_characteristics": [
+      "Confident and charismatic",
+      "Generous and warm-hearted",
+      "Natural leader with ambition",
+      "Can be dramatic or proud"
+    ]
+  },
+  "virgo": {
+    "date_range": "August 23 - September 22",
+    "element": "Earth",
+    "planet": "Mercury",
+    "general_characteristics": [
+      "Detail-oriented and practical",
+      "Analytical and intelligent",
+      "Helpful and reliable",
+      "Can be critical or overthinking"
+    ]
+  },
+  "libra": {
+    "date_range": "September 23 - October 22",
+    "element": "Air",
+    "planet": "Venus",
+    "general_characteristics": [
+      "Diplomatic and fair-minded",
+      "Charming and sociable",
+      "Appreciates beauty and harmony",
+      "Can be indecisive or avoid conflict"
+    ]
+  },
+  "scorpio": {
+    "date_range": "October 23 - November 21",
+    "element": "Water",
+    "planet": "Pluto/Mars",
+    "general_characteristics": [
+      "Intense and passionate",
+      "Mysterious and determined",
+      "Resourceful and loyal",
+      "Can be secretive or jealous"
+    ]
+  },
+  "sagittarius": {
+    "date_range": "November 22 - December 21",
+    "element": "Fire",
+    "planet": "Jupiter",
+    "general_characteristics": [
+      "Adventurous and optimistic",
+      "Freedom-loving and honest",
+      "Philosophical and curious",
+      "Can be blunt or reckless"
+    ]
+  },
+  "capricorn": {
+    "date_range": "December 22 - January 19",
+    "element": "Earth",
+    "planet": "Saturn",
+    "general_characteristics": [
+      "Disciplined and ambitious",
+      "Practical and responsible",
+      "Patient and hardworking",
+      "Can be reserved or rigid"
+    ]
+  },
+  "aquarius": {
+    "date_range": "January 20 - February 18",
+    "element": "Air",
+    "planet": "Uranus/Saturn",
+    "general_characteristics": [
+      "Independent and innovative",
+      "Humanitarian and open-minded",
+      "Visionary thinker",
+      "Can be detached or unpredictable"
+    ]
+  },
+  "pisces": {
+    "date_range": "February 19 - March 20",
+    "element": "Water",
+    "planet": "Neptune/Jupiter",
+    "general_characteristics": [
+      "Compassionate and empathetic",
+      "Highly intuitive and artistic",
+      "Selfless and imaginative",
+      "Can be overly idealistic or escapist"
+    ]
+  }
+}
