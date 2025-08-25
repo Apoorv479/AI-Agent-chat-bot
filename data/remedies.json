@@ -1,0 +1,122 @@
+{
+  "aries": {
+    "general_remedies": [
+      "Practice patience and avoid impulsive decisions.",
+      "Engage in regular physical exercise to release excess energy."
+    ],
+    "gemstone_remedies": ["Red Coral", "Ruby"],
+    "mantra_remedies": ["Om Kram Krim Kraum Sah Bhaumaya Namah"],
+    "dietary_remedies": ["Include leafy greens and cooling foods.", "Reduce spicy and fried foods."],
+    "behavioral_remedies": ["Develop tolerance for others’ opinions.", "Channel energy into creative pursuits."]
+  },
+  "taurus": {
+    "general_remedies": [
+      "Practice flexibility and avoid stubbornness.",
+      "Engage in creative hobbies like music or art."
+    ],
+    "gemstone_remedies": ["Diamond", "Emerald"],
+    "mantra_remedies": ["Om Shukraya Namah"],
+    "dietary_remedies": ["Eat fresh fruits and avoid heavy, oily foods."],
+    "behavioral_remedies": ["Learn to adapt to change.", "Practice letting go of grudges."]
+  },
+  "gemini": {
+    "general_remedies": [
+      "Focus on grounding activities to reduce restlessness.",
+      "Meditation and deep breathing exercises are beneficial."
+    ],
+    "gemstone_remedies": ["Emerald", "Green Tourmaline"],
+    "mantra_remedies": ["Om Bum Budhaya Namah"],
+    "dietary_remedies": ["Consume nuts, seeds, and wholesome grains."],
+    "behavioral_remedies": ["Avoid overthinking.", "Commit to finishing tasks before starting new ones."]
+  },
+  "cancer": {
+    "general_remedies": [
+      "Avoid over-emotional decisions.",
+      "Spending time near water bodies helps balance energy."
+    ],
+    "gemstone_remedies": ["Pearl", "Moonstone"],
+    "mantra_remedies": ["Om Chandraya Namah"],
+    "dietary_remedies": ["Eat more fresh vegetables and avoid excessive dairy."],
+    "behavioral_remedies": ["Develop self-confidence.", "Learn to detach from unnecessary emotional baggage."]
+  },
+  "leo": {
+    "general_remedies": [
+      "Practice humility and avoid arrogance.",
+      "Engage in charity and service activities."
+    ],
+    "gemstone_remedies": ["Ruby", "Garnet"],
+    "mantra_remedies": ["Om Suryaya Namah"],
+    "dietary_remedies": ["Eat light meals with fresh fruits and avoid excess alcohol."],
+    "behavioral_remedies": ["Encourage teamwork.", "Balance leadership with listening."]
+  },
+  "virgo": {
+    "general_remedies": [
+      "Avoid overthinking and being too critical.",
+      "Practice yoga or mindfulness meditation."
+    ],
+    "gemstone_remedies": ["Emerald", "Peridot"],
+    "mantra_remedies": ["Om Bum Budhaya Namah"],
+    "dietary_remedies": ["Consume herbal teas and light vegetarian meals."],
+    "behavioral_remedies": ["Accept imperfections.", "Take breaks from routine to relax."]
+  },
+  "libra": {
+    "general_remedies": [
+      "Focus on making firm decisions.",
+      "Avoid over-dependence on others."
+    ],
+    "gemstone_remedies": ["Diamond", "Opal"],
+    "mantra_remedies": ["Om Shukraya Namah"],
+    "dietary_remedies": ["Eat balanced meals with colorful vegetables."],
+    "behavioral_remedies": ["Develop self-discipline.", "Maintain harmony without avoiding conflicts."]
+  },
+  "scorpio": {
+    "general_remedies": [
+      "Practice forgiveness and avoid jealousy.",
+      "Channel intensity into meditation or martial arts."
+    ],
+    "gemstone_remedies": ["Red Coral", "Topaz"],
+    "mantra_remedies": ["Om Kram Krim Kraum Sah Bhaumaya Namah"],
+    "dietary_remedies": ["Eat hydrating foods like cucumber and melons."],
+    "behavioral_remedies": ["Control obsessive tendencies.", "Cultivate trust in relationships."]
+  },
+  "sagittarius": {
+    "general_remedies": [
+      "Avoid over-optimism and impulsiveness.",
+      "Travel and learning help in balancing energy."
+    ],
+    "gemstone_remedies": ["Yellow Sapphire", "Citrine"],
+    "mantra_remedies": ["Om Brim Brihaspataye Namah"],
+    "dietary_remedies": ["Eat fresh fruits, cereals, and avoid overeating."],
+    "behavioral_remedies": ["Be realistic in goals.", "Practice patience in relationships."]
+  },
+  "capricorn": {
+    "general_remedies": [
+      "Avoid excessive seriousness and rigidity.",
+      "Take breaks and allow yourself to enjoy leisure."
+    ],
+    "gemstone_remedies": ["Blue Sapphire", "Onyx"],
+    "mantra_remedies": ["Om Sham Shanicharaya Namah"],
+    "dietary_remedies": ["Eat warm meals and avoid cold, stale food."],
+    "behavioral_remedies": ["Develop work-life balance.", "Practice optimism and gratitude."]
+  },
+  "aquarius": {
+    "general_remedies": [
+      "Avoid detachment from loved ones.",
+      "Engage in humanitarian service."
+    ],
+    "gemstone_remedies": ["Amethyst", "Blue Sapphire"],
+    "mantra_remedies": ["Om Sham Shanicharaya Namah"],
+    "dietary_remedies": ["Include legumes, grains, and hydrating foods."],
+    "behavioral_remedies": ["Strengthen emotional connections.", "Ground innovative ideas with practical steps."]
+  },
+  "pisces": {
+    "general_remedies": [
+      "Avoid escapism and over-sensitivity.",
+      "Spend time in meditation or prayer."
+    ],
+    "gemstone_remedies": ["Yellow Sapphire", "Amethyst"],
+    "mantra_remedies": ["Om Gurave Namah"],
+    "dietary_remedies": ["Eat light vegetarian meals and avoid alcohol."],
+    "behavioral_remedies": ["Develop confidence and boundaries.", "Balance dreams with reality."]
+  }
+}
