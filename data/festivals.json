@@ -1,0 +1,77 @@
+{
+  "makar_sankranti": {
+    "date": "January 14",
+    "description": "Celebrates the Sun’s transit into Capricorn (Makar). Marks the end of winter solstice and the beginning of longer days.",
+    "astrological_significance": "Associated with Surya (Sun God). Considered auspicious for new beginnings, harvest, and charity."
+  },
+  "maha_shivratri": {
+    "date": "February/March (depends on lunar calendar)",
+    "description": "A night dedicated to Lord Shiva with fasting, meditation, and chanting.",
+    "astrological_significance": "Occurs during the waning Moon (Krishna Paksha) in Phalguna month. Aligns with spiritual awakening and overcoming darkness."
+  },
+  "chaitra_navratri": {
+    "date": "March/April",
+    "description": "Nine nights dedicated to Goddess Durga, starting with the first day of the Hindu New Year.",
+    "astrological_significance": "Begins with the New Moon. Considered powerful for spiritual cleansing and setting intentions."
+  },
+  "ram_navami": {
+    "date": "March/April",
+    "description": "Celebrates the birth of Lord Rama, the 7th avatar of Vishnu.",
+    "astrological_significance": "Falls on the ninth day of Chaitra Navratri, linked with Sun energy and righteousness."
+  },
+  "hanuman_jayanti": {
+    "date": "March/April",
+    "description": "Celebrates the birth of Lord Hanuman, symbol of strength and devotion.",
+    "astrological_significance": "Hanuman is connected with Mars, representing courage, protection, and vitality."
+  },
+  "guru_purnima": {
+    "date": "July (Full Moon day of Ashadha month)",
+    "description": "A day to honor spiritual teachers and gurus.",
+    "astrological_significance": "Falls on a full Moon day, amplifying wisdom and spiritual guidance under Jupiter’s influence."
+  },
+  "krishna_janmashtami": {
+    "date": "August/September",
+    "description": "Celebrates the birth of Lord Krishna, the 8th avatar of Vishnu.",
+    "astrological_significance": "Occurs on the 8th day of Krishna Paksha (waning Moon) in Bhadrapada. Associated with Moon and Venus energy."
+  },
+  "navratri": {
+    "date": "September/October",
+    "description": "Nine nights of worship of Goddess Durga in her various forms.",
+    "astrological_significance": "Aligns with seasonal shifts and equinoxes, supporting balance, protection, and renewal."
+  },
+  "diwali": {
+    "date": "October/November",
+    "description": "Festival of Lights celebrating the victory of good over evil.",
+    "astrological_significance": "Occurs on Amavasya (New Moon) of Kartika month. Considered powerful for wealth, prosperity, and cleansing negative energies."
+  },
+  "karwa_chauth": {
+    "date": "October/November",
+    "description": "Married women fast for the well-being and longevity of their husbands.",
+    "astrological_significance": "Observed on the fourth day after the full Moon in Kartika month. Linked with Moon’s influence on relationships."
+  },
+  "guru_nanaks_birthday": {
+    "date": "November",
+    "description": "Celebrates the birth of Guru Nanak, founder of Sikhism.",
+    "astrological_significance": "Falls on Kartik Purnima, a full Moon day, amplifying wisdom, service, and spiritual growth."
+  },
+  "winter_solstice": {
+    "date": "December 21/22",
+    "description": "The shortest day and longest night of the year.",
+    "astrological_significance": "Marks the Sun’s transit into Capricorn. A turning point for renewal, meditation, and inward focus."
+  },
+  "summer_solstice": {
+    "date": "June 21",
+    "description": "The longest day of the year when the Sun is at its peak.",
+    "astrological_significance": "A time of abundance, fertility, and strong solar energy, ideal for manifestation and growth."
+  },
+  "lunar_eclipse": {
+    "date": "Varies (Full Moon)",
+    "description": "Occurs when Earth blocks sunlight from reaching the Moon.",
+    "astrological_significance": "Associated with emotional release, endings, and revelations. Considered powerful but unstable energy."
+  },
+  "solar_eclipse": {
+    "date": "Varies (New Moon)",
+    "description": "Occurs when the Moon passes between Earth and the Sun.",
+    "astrological_significance": "Represents sudden changes, new beginnings, and karmic shifts. Considered transformative."
+  }
+}
