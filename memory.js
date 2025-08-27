@@ -7,107 +7,76 @@ class AstrologyDataHandler {
         if (typeof data === 'string') {
             return data.toLowerCase().includes(query.toLowerCase());
         } else if (Array.isArray(data)) {
-            return data.some(item =>
-                this.containsRelevantData(item, query)
-            );
+            return data.some(item => this.containsRelevantData(item, query));
         } else if (typeof data === 'object') {
-            return Object.values(data).some(value =>
-                this.containsRelevantData(value, query)
-            );
+            return Object.values(data).some(value => this.containsRelevantData(value, query));
         }
         return false;
     }
 
     static formatDataForCategory(category, data) {
-        switch(category) {
-            case 'zodiacsigns':
+        switch (category) {
+            case 'zodiac_signs':
                 return this.formatZodiacData(data);
-            case 'planetarytransits':
-                return this.formatTransitData(data);
-            case 'dailyhoroscope':
-                return this.formatHoroscopeData(data);
-            case 'compatibility':
-                return this.formatCompatibilityData(data);
+            case 'daily_horoscope':
+                return this.formatDailyHoroscopeData(data);
+            case 'festivals':
+                return this.formatFestivalData(data);
             case 'remedies':
                 return this.formatRemediesData(data);
             case 'astro_terms':
                 return this.formatAstroTermsData(data);
-            case 'festivals':
-                return this.formatFestivalData(data);
+            case 'planetary_transits':
+                return this.formatTransitData(data);
             default:
                 return JSON.stringify(data, null, 2);
         }
     }
 
-    // 🌟 Zodiac Signs
     static formatZodiacData(data) {
-        let formatted = `♈ Zodiac Signs:\n`;
-        for (let sign in data) {
-            formatted += `\n${this.capitalize(sign)} (${data[sign].period})\n`;
-            formatted += `Traits: ${data[sign].characteristics.join(", ")}\n`;
-        }
-        return formatted;
-    }
-
-    // 🪐 Planetary Transits
-    static formatTransitData(data) {
-        let formatted = "🪐 Planetary Transits:\n";
-        data.transits.forEach(t => {
-            formatted += `- ${t.planet} in ${t.sign} (${t.date}): ${t.effect}\n`;
+        let formatted = "♈ Zodiac Signs:\n";
+        data.forEach(sign => {
+            formatted += `\n${sign.name} (${sign.period})\n- Element: ${sign.element}\n- Characteristics: ${sign.characteristics.join(", ")}\n`;
         });
         return formatted;
     }
 
-    // 🔮 Daily Horoscope
-    static formatHoroscopeData(data) {
-        let formatted = "🔮 Daily Horoscope:\n";
-        for (let sign in data) {
-            formatted += `\n${this.capitalize(sign)}:\n`;
-            formatted += `- Love: ${data[sign].love}\n`;
-            formatted += `- Career: ${data[sign].career}\n`;
-            formatted += `- Health: ${data[sign].health}\n`;
-            formatted += `- Advice: ${data[sign].advice}\n`;
-        }
-        return formatted;
-    }
-
-    // ❤️ Compatibility
-    static formatCompatibilityData(data) {
-        let formatted = "❤️ Compatibility:\n";
-        data.compatibility.forEach(pair => {
-            formatted += `\n${pair.sign1} ♡ ${pair.sign2}\n`;
-            formatted += `- Strength: ${pair.strength}\n`;
-            formatted += `- Weakness: ${pair.weakness}\n`;
-            formatted += `- Score: ${pair.score}/100\n`;
+    static formatDailyHoroscopeData(data) {
+        let formatted = `🔮 Daily Horoscope (${data.date}):\n`;
+        data.horoscopes.forEach(h => {
+            formatted += `\n${h.sign}:\n- Love: ${h.love}\n- Career: ${h.career}\n- Health: ${h.health}\n- Lucky Number: ${h.lucky_number}\n- Lucky Color: ${h.lucky_color}\n`;
         });
         return formatted;
     }
 
-    // 🕉️ Remedies
-    static formatRemediesData(data) {
-        let formatted = "🕉️ Remedies:\n";
-        for (let issue in data) {
-            formatted += `\nIssue: ${this.capitalize(issue)}\n`;
-            formatted += `- Remedies: ${data[issue].remedies.join(", ")}\n`;
-            formatted += `- Mantra: ${data[issue].mantra}\n`;
-        }
-        return formatted;
-    }
-
-    // 📖 Astro Terms
-    static formatAstroTermsData(data) {
-        let formatted = "📖 Astrology Glossary:\n";
-        data.terms.forEach(term => {
-            formatted += `- ${term.word}: ${term.meaning}\n`;
-        });
-        return formatted;
-    }
-
-    // 🎉 Festivals
     static formatFestivalData(data) {
         let formatted = "🎉 Festivals:\n";
         data.festivals.forEach(f => {
-            formatted += `- ${f.date}: ${f.name} (${f.significance})\n`;
+            formatted += `\n${f.date} - ${f.name}: ${f.significance}\n`;
+        });
+        return formatted;
+    }
+
+    static formatRemediesData(data) {
+        let formatted = "🪔 Remedies:\n";
+        data.remedies.forEach(r => {
+            formatted += `\n${r.issue} → Remedy: ${r.remedy}\n`;
+        });
+        return formatted;
+    }
+
+    static formatAstroTermsData(data) {
+        let formatted = "📖 Astrology Terms:\n";
+        data.terms.forEach(t => {
+            formatted += `\n${t.term}: ${t.definition}\n`;
+        });
+        return formatted;
+    }
+
+    static formatTransitData(data) {
+        let formatted = "🌌 Planetary Transits:\n";
+        data.transits.forEach(t => {
+            formatted += `\n${t.planet} → ${t.sign} (${t.start_date} to ${t.end_date})\nEffect: ${t.effect}\n`;
         });
         return formatted;
     }
